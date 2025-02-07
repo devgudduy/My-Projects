@@ -35,20 +35,20 @@ const quiz = [
 
 const studentName = prompt("Enter Your Name : ");
 const question = document.getElementById("quiz-quetion");
-console.log(question);
-console.log(question.textContent);
+// console.log(question);
+// console.log(question.textContent);
 const option_a = document.getElementById("text-option-a");
 const option_b = document.getElementById("text-option-b");
 const option_c = document.getElementById("text-option-c");
 const option_d = document.getElementById("text-option-d");
-console.log(option_a);
-console.log(option_b);
-console.log(option_c);
-console.log(option_d);
-console.log(option_a.innerText);
-console.log(option_b.innerText);
-console.log(option_c.innerText);
-console.log(option_d.innerText);
+// console.log(option_a);
+// console.log(option_b);
+// console.log(option_c);
+// console.log(option_d);
+// console.log(option_a.innerText);
+// console.log(option_b.innerText);
+// console.log(option_c.innerText);
+// console.log(option_d.innerText);
 
 const submit = document.getElementById("submit");
 
@@ -56,11 +56,11 @@ let currentQuestion = 0;
 let score = 0;
 const answerElement = document.querySelectorAll(".answer");
 
-console.log(quiz[currentQuestion].question);
-console.log(quiz[currentQuestion].ans1text);
-console.log(quiz[currentQuestion].ans2text);
-console.log(quiz[currentQuestion].ans3text);
-console.log(quiz[currentQuestion].ans4text);
+// console.log(quiz[currentQuestion].question);
+// console.log(quiz[currentQuestion].ans1text);
+// console.log(quiz[currentQuestion].ans2text);
+// console.log(quiz[currentQuestion].ans3text);
+// console.log(quiz[currentQuestion].ans4text);
 
 question.textContent = quiz[currentQuestion].question;
 option_a.textContent = quiz[currentQuestion].ans1text;
@@ -70,7 +70,7 @@ option_d.textContent = quiz[currentQuestion].ans4text;
 
 submit.addEventListener("click", () => {
   const checkedAns = document.querySelector('input[type="radio"]:checked');
-  console.log(checkedAns);
+  // console.log(checkedAns);
   // console.log(checkedAns.nextElementSibling.textContent);
   if (checkedAns === null) {
     alert("Please select an answer");
