@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.container {
+  cursor: pointer;
+}
+
+span {
+  font-size: 8rem;
+  font-weight: bolder;
+  display: inline-block;
+  color: blue;
+  line-height: 1;
+}
+
+span.active {
+  animation: jump 2s ease-in-out;
+}
+
+#devBy {
+  text-align: center;
+  cursor: none;
+  font-size: 1.2rem;
+  color: rgba(43, 40, 40, 0.3);
+  margin-top: 10px;
+}
+@keyframes jump {
+  0% {
+    transform: translate(0, 0) rotate(180deg);
+  }
+  100% {
+    transform: scale(2) translate(0, -150px);
+  }
+}
