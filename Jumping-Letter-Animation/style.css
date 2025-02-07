@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   display: flex;
   justify-content: center;
@@ -34,6 +35,7 @@ span.active {
   color: rgba(43, 40, 40, 0.3);
   margin-top: 10px;
 }
+
 @keyframes jump {
   0% {
     transform: translate(0, 0) rotate(180deg);
