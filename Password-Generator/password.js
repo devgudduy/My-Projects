@@ -8,11 +8,11 @@ const passinp = document.querySelector("#pass-input");
 const copy = document.querySelector("#copy");
 const genrate = document.querySelector("#generate");
 
-console.log(lengthp.value);
-console.log(upper.checked);
-console.log(lower.checked);
-console.log(number.checked);
-console.log(symbol.checked);
+// console.log(lengthp.value);
+// console.log(upper.checked);
+// console.log(lower.checked);
+// console.log(number.checked);
+// console.log(symbol.checked);
 
 const uppercaseStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const lowercaseStr = "abcdefghijklmnopqrstuvwxyz";
@@ -40,20 +40,20 @@ genrate.addEventListener("click", () => {
   console.log("str : ", str);
   password = "";
   for (let i = 0; i < lengthp.value; i++) {
-    console.log("str.length", str.length);
+    // console.log("str.length", str.length);
     let index = Math.floor(Math.random() * str.length);
 
-    console.log("index", index);
-    console.log("Math.random()", Math.random());
-    console.log("Math.random() * str.length", Math.random() * str.length);
-    console.log(
-      "Math.floor(Math.random() * str.length)",
-      Math.floor(Math.random() * str.length)
-    );
-    console.log(str[index]);
+    // console.log("index", index);
+    // console.log("Math.random()", Math.random());
+    // console.log("Math.random() * str.length", Math.random() * str.length);
+    // console.log(
+    //   "Math.floor(Math.random() * str.length)",
+    //   Math.floor(Math.random() * str.length)
+    // );
+    // console.log(str[index]);
     password += str[index];
   }
-  console.log("password", password);
+  // console.log("password", password);
   passinp.value = password;
 });
 
