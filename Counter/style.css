@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(14, 110, 110);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.header {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.output {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+#increment {
+  background-color: blue;
+  color: white;
+  padding: 5px 15px;
+  font-size: 1.1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#increment:hover {
+  background-color: rgb(7, 7, 143);
+}
+
+#reset {
+  background-color: green;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: rgb(4, 92, 4);
+}
+
+#decrement {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#decrement:hover {
+  background-color: rgb(182, 6, 6);
+}
