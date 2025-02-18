@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(25, 141, 141);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.age-container {
+  border-radius: 10px;
+  width: 300px;
+  background-color: white;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.age-header {
+  font-size: 1.1rem;
+  background-color: blue;
+  color: white;
+  padding: 5px 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: georgia;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  padding: 5px 0px;
+}
+
+input {
+  width: 40%;
+  font-family: georgia;
+  padding: 3px 8px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  margin: 5px;
+}
+
+button {
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: black;
+  color: white;
+  margin: 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.output {
+  font-size: 0.9rem;
+  padding-bottom: 10px;
+  font-weight: 550;
+}
+
+span {
+  color: red;
+  font-size: 1.2rem;
+}
