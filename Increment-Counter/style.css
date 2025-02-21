@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(20, 129, 129);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-counter {
+  height: 250px;
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.counter {
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.container-counter span {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.iconName {
+  height: 60px;
+  width: 60px;
+  font-size: 5rem;
+}
+
+i {
+  font-size: xxx-large;
+}

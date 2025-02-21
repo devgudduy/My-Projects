@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(23, 129, 129);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+button {
+  height: 50px;
+  border: none;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  outline: none;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: violet;
+  position: absolute;
+  animation: animationname 0.6 linear;
+  transform: scale(0);
+}
+
+@keyframes animationname {
+  to {
+    transition: scale(3);
+    opacity: 0;
+  }
+}
