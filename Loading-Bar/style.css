@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(18, 138, 138);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  height: 30px;
+  width: 600px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.percentage {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 38%;
+  left: 50%;
+  color: white;
+}
+
+.loading-bar {
+  background-color: orange;
+  width: 0;
+  height: 100%;
+  border-radius: 8px;
+}
