@@ -11,7 +11,6 @@ const testimonials = [
   "This is the best purchase I've made this year. Highly recommend to everyone!",
 ];
 
-//Author 
 const authors = [
   "Jane Doe",
   "John Smith",
