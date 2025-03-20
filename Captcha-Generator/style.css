@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 body {
   background-color: lightblue;
   height: 100vh;
@@ -40,7 +39,6 @@ input {
   font-weight: 600;
   letter-spacing: 2px;
 }
-
 button {
   padding: 5px 10px;
   font-size: 1.2rem;
