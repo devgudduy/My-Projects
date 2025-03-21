@@ -1,5 +1,6 @@
 const userScore = document.querySelector("#user-score");
 const computerScore = document.querySelector("#computer-score");
+const resultOutput = document.querySelector("#result");
 let userChoice = "";
 let computerChoice = "";
 const buttons = document.querySelectorAll("button");
@@ -21,15 +22,18 @@ buttons.forEach((button) => {
     // console.log("Computer Choice : ", computerChoice);
     const result = findWinner();
     if (result == "You Win!") {
-      alert("You Win!");
-      console.log("You Win!");
+      // alert("You Win!");
+      resultOutput.textContent = "You Win!";
+      // console.log("You Win!");
       userScore.textContent = parseInt(userScore.innerText) + 1;
     } else if (result == "Computer Wins!") {
-      alert("Computer Wins!");
+      // alert("Computer Wins!");
+      resultOutput.textContent = "Computer Wins!";
       // console.log("Computer Wins!");
       computerScore.textContent = parseInt(computerScore.innerText) + 1;
     } else {
-      alert("It's a tie!");
+      // alert("It's a tie!");
+      resultOutput.textContent = "It's a tie!";
       // console.log("It's a tie!");
     }
     youChose.textContent = userChoice;
