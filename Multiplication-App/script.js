@@ -3,7 +3,6 @@ const num1 = document.querySelector("#num1");
 const num2 = document.querySelector("#num2");
 let input = document.querySelector("#input");
 const submit = document.querySelector("#submit");
-
 num1.textContent = Math.floor(Math.random() * 10);
 num2.textContent = Math.floor(Math.random() * 10);
 
