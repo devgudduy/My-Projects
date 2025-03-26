@@ -1,7 +1,6 @@
 const inputBtn = document.querySelector("#age-dob-inppt");
 const calculateBtn = document.querySelector("#calculate-btn");
 const ageResult = document.querySelector("#age-result");
-
 // console.log("inputBtn ", inputBtn);
 // console.log("calculateButton ", calculateBtn);
 // console.log("ageResult ", ageResult);
