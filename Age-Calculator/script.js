@@ -14,7 +14,6 @@ calculateBtn.addEventListener("click", () => {
     let dobYear = dob.getFullYear();
     // console.log("dob", dob);
     // console.log("dobYear", dobYear);
-
     // current
     let now = new Date();
     let nowYear = now.getFullYear();
