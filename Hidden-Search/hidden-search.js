@@ -8,7 +8,6 @@ searchBtn.addEventListener("click", () => {
   //   searchContainer.classList.add("active");
   //   searchInput.focus();
   // }
-
   searchContainer.classList.toggle("active");
   // searchInput.focus();
 });
