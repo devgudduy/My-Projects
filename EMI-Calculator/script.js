@@ -3,9 +3,7 @@ const interest = document.querySelector("#interest-rate-input");
 const tenure = document.querySelector("#months-to-pay-input");
 const calculate = document.querySelector("#calculate");
 const emi = document.querySelector("#emi");
-
 // console.log(principal, interest, tenure);
-
 const calculateEMI = () => {
   if (principal.value === "" || interest.value === "" || tenure.value === "") {
     alert("Please enter all value");
