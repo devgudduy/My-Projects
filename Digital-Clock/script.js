@@ -2,7 +2,6 @@ const timer = document.querySelector(".timer");
 
 function getTime() {
   let now = new Date();
-
   let h = now.getHours();
   let m = now.getMinutes();
   let s = now.getSeconds();
