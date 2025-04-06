@@ -1,6 +1,5 @@
 const container = document.querySelector(".container");
 // console.log(container);
-
 let square_count = 365;
 const colors = ["#196127", "#239a3b", "#7bc96f", "#c6e48b", "#ebedf0"];
 
