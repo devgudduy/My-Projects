@@ -13,9 +13,11 @@ submit.addEventListener("click", () => {
     alert("Captcha is not Matched");
   }
 });
+
 refresh.addEventListener("click", () => {
   captcha.textContent = generateCaptcha();
 });
+
 function generateCaptcha() {
   let captcha_gen = "";
   for (let i = 0; i < 6; i++) {
